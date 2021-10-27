@@ -1,6 +1,6 @@
 .eslintrc.js
 .prettierrc.js
-
+.DS_Store
 
 # Created by https://www.toptal.com/developers/gitignore/api/node
 # Edit at https://www.toptal.com/developers/gitignore?templates=node
@@ -130,3 +130,6 @@ dist
 .webpack/
 
 # End of https://www.toptal.com/developers/gitignore/api/node
+
+# Firbase account service
+wesopt29-26a06-firebase-adminsdk-dfzud-6171d987b6.json
