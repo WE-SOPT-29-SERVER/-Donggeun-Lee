@@ -1,3 +1,11 @@
+/*
+signup
+METHOD: POST
+URI: localhost:3000/user/signup
+RESPONSE STATUS: 200 (OK)
+RESPONSE DATA: 생성된 유저 정보
+*/
+
 // return res VS res
 // express는 res 이후에도 작업을 수행할 수 있음 (ex -> 검색결과 반환 후 검색 history 저장)
 // if절 안에서 return을 안해주면, 계속해서 코드가 진행되기 때문에 예상치 못한 오류가 발생

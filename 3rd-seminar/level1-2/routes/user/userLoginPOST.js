@@ -1,3 +1,11 @@
+/*
+post login
+METHOD: POST
+URI: localhost:3000/user/login
+RESPONSE STATUS: 200 (OK)
+RESPONSE DATA: 로그인 유저 정보
+*/
+
 const { fail, success } = require('../../lib/util');
 const responseMessage = require('../../constants/responseMessage');
 const statusCode = require('../../constants/statusCode');

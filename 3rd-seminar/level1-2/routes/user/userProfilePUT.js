@@ -1,3 +1,11 @@
+/*
+update profile
+METHOD: PUT
+URI: localhost:3000/user/:id
+RESPONSE STATUS: 200 (OK)
+RESPONSE DATA: 업데이트 된 유저 정보
+*/
+
 const { fail, success } = require('../../lib/util');
 const responseMessage = require('../../constants/responseMessage');
 const statusCode = require('../../constants/statusCode');
