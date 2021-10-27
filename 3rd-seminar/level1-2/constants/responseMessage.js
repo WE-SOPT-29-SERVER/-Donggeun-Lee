@@ -1,6 +1,7 @@
 module.exports = {
   NULL_VALUE: '필요한 값이 없습니다',
   OUT_OF_VALUE: '파라미터 값이 잘못되었습니다',
+  FORBIDDEN: '접근이 불가능합니다',
 
   // 회원가입
   CREATED_USER: '회원 가입 성공',
@@ -21,4 +22,17 @@ module.exports = {
 
   // 프로필 삭제
   USER_DELETE_SUCCESS: '유저 삭제 성공',
+
+  // 게시글 조회
+  GET_POST_SUCCESS: '게시글 조회 성공',
+  NO_POST: '존재하지 않는 게시글 입니다.',
+
+  // 게시글 작성
+  WRITE_POST_SUCCESS: '게시글 작성 성공',
+
+  // 게시글 수정
+  POST_UPDATE_SUCCESS: '게시글 업데이트 성공',
+
+  // 게시글 삭제
+  DELETE_POST_SUCCESS: '게시글 삭제 성공',
 };
