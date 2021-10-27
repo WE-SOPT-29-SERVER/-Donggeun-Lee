@@ -1,6 +1,8 @@
-# 2차 세미나
+# 3차 세미나
 > HTTP, CRUD, Firebase Functions
 
+## Seminar
+- [자주 사용하는 HTTP 상태 코드](https://velog.io/@geeneve/자주-사용하는-HTTP-상태-코드)
 
 ## LEVEL 1
 - 오늘 실습한 내용 & MISSON 모두 깃허브에 커밋하기
