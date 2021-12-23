@@ -1,4 +1,4 @@
-# 4차 세미나
+# 5차 세미나
 > NodeJS 연동, 유저 인증, ERD, REST API, API 문서
 
 ## LEVEL 1
