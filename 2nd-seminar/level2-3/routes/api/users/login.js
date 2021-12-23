@@ -4,7 +4,7 @@ const router = express.Router();
 router.get('/', (req, res) => {
   const result = {
     status: 200,
-    message: '/api/blog/login',
+    message: '/api/users/login',
   };
   res.status(200).send(result);
 });
