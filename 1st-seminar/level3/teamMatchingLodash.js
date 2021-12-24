@@ -1,25 +1,5 @@
+const _ = require('lodash');
 const members = require('./members');
-
-// 배열을 무작위로 섞어주는 함수
-const shuffle = (arr) => {
-  for (let i = 0; i < arr.length; i++) {
-    const randomIndex = Math.floor(Math.random() * arr.length);
-    const temp = arr[i];
-    arr[i] = arr[randomIndex];
-    arr[randomIndex] = temp;
-  }
-};
-
-// OB와 YB로 나누어주는 함수
-const filterOBYB = (arr, OBs, YBs) => {
-  arr.forEach((member) => {
-    if (member.group === 'OB') {
-      OBs.push(member);
-    } else {
-      YBs.push(member);
-    }
-  });
-};
 
 // 팀 개수에 따라 팀매칭
 const matchingByTeamNumber = (numberOfTeam, OBs, YBs) => {
@@ -56,13 +36,8 @@ const matchingByMemberNumber = (numberOfMember, OBs, YBs) => {
   return matchingByTeamNumber(numberOfTeam, OBs, YBs);
 };
 
-// main
-const OBs = [];
-const YBs = [];
-
-filterOBYB(members, OBs, YBs);
-shuffle(OBs);
-shuffle(YBs);
-
+let [YBs, OBs] = _.partition(members, (member) => member.group === 'YB');
+YBs = _.shuffle(YBs);
+OBs = _.shuffle(OBs);
 console.log(matchingByTeamNumber(5, OBs, YBs));
 console.log(matchingByMemberNumber(4, OBs, YBs));
