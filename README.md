@@ -11,5 +11,5 @@
 |2021.10.30<br>4차 세미나|DB, PostgreSQL, NodeJS 연동, RDS|[📕](./4th-seminar/README.md)|[1️⃣](./4th-seminar/level1)|||
 |2021.11.13<br>5차 세미나|API 제작 실전|[📕](./5th-seminar/README.md)|[1️⃣](./5th-seminar/level1)|||
 |2021.10.23<br>6차 세미나|클라이언트-서버 합동 세미나|[📕](./6th-seminar/README.md)||||
-|2021.11.27<br>7차 세미나|Response 가공|[📕](./7th-seminar/README.md)|[1️⃣](./7th-seminar/level1-3)|[2️⃣](./7th-seminar/level2)|[3️⃣](./7th-seminar/level1-3)|
+|2021.11.27<br>7차 세미나|Response 가공|[📕](./7th-seminar/README.md)|[1️⃣](./7th-seminar/level1)|[2️⃣](./7th-seminar/level2)|[3️⃣](./7th-seminar/level3)|
 |2021.12.18<br>8차 세미나|컨벤션, 디버깅, 커뮤커니이션|[📕](./8th-seminar/README.md)||||
