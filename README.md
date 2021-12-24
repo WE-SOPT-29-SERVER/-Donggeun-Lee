@@ -8,8 +8,8 @@
 |2021.10.02<br>1차 세미나|JavaScript, Node.js, Git|[📕](./1st-seminar/README.md)|[1️⃣](./1st-seminar/level1)|[2️⃣](./1st-seminar/level2)|[3️⃣](./1st-seminar/level3)|
 |2021.10.09<br>2차 세미나|비동기 흐름제어, 모듈, Express|[📕](./2nd-seminar/README.md)|[1️⃣](./2nd-seminar/level1)|[2️⃣](./2nd-seminar/level2-3)|[3️⃣](./2nd-seminar/level2-3)|
 |2021.10.23<br>3차 세미나|HTTP, CRUD, Firebase Functions|[📕](./3rd-seminar/README.md)|[1️⃣](./3rd-seminar/level1-2)|[2️⃣](./3rd-seminar/level1-2)|[3️⃣](./3rd-seminar/level3)|
-|2021.10.30<br>4차 세미나|DB, PostgreSQL, NodeJS 연동, RDS|[📕](./4th-seminar/README.md)||||
-|2021.11.13<br>5차 세미나|API 제작 실전|[📕](./5th-seminar/README.md)||||
+|2021.10.30<br>4차 세미나|DB, PostgreSQL, NodeJS 연동, RDS|[📕](./4th-seminar/README.md)|[1️⃣](./4th-seminar/level1)|||
+|2021.11.13<br>5차 세미나|API 제작 실전|[📕](./5th-seminar/README.md)|[1️⃣](./5th-seminar/level1)|||
 |2021.10.23<br>6차 세미나|클라이언트-서버 합동 세미나|[📕](./6th-seminar/README.md)||||
-|2021.11.27<br>7차 세미나|Response 가공|[📕](./7th-seminar/README.md)|[1️⃣]()|[2️⃣]()|[3️⃣]()|
+|2021.11.27<br>7차 세미나|Response 가공|[📕](./7th-seminar/README.md)|[1️⃣](./7th-seminar/level1-3)|[2️⃣](./7th-seminar/level2)|[3️⃣](./7th-seminar/level1-3)|
 |2021.12.18<br>8차 세미나|컨벤션, 디버깅, 커뮤커니이션|[📕](./8th-seminar/README.md)||||
