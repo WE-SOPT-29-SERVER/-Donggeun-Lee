@@ -33,9 +33,11 @@ const uploadImage = (req, res, next) => {
     // my.image.png => ['my', 'image', 'png']
     const imageExtension = filename.split('.')[filename.split('.').length - 1];
     // 32756238461724837.png
-    imageFileName = `${dayjs().format('YYYYMMDD_HHmmss_')}${Math.round(Math.random() * 1000000000000).toString()}.${imageExtension}`;
+    const baseImageFileName = `${dayjs().format('YYYYMMDD_HHmmss_')}${Math.round(Math.random() * 1000000000000).toString()}`;
+    imageFileName = `${baseImageFileName}.${imageExtension}`;
+    const resizedImageFileName = `${baseImageFileName}_200x200.${imageExtension}`;
     const filepath = path.join(os.tmpdir(), imageFileName);
-    imageToAdd = { imageFileName, filepath, mimetype };
+    imageToAdd = { imageFileName, filepath, mimetype, resizedImageFileName };
     file.pipe(fs.createWriteStream(filepath));
     imagesToUpload.push(imageToAdd);
   });
@@ -44,7 +46,7 @@ const uploadImage = (req, res, next) => {
   busboy.on('finish', async () => {
     let promises = [];
     imagesToUpload.forEach((imageToBeUploaded) => {
-      imageUrls.push(`https://firebasestorage.googleapis.com/v0/b/${firebaseConfig.storageBucket}/o/${imageToBeUploaded.imageFileName}?alt=media`);
+      imageUrls.push(`https://firebasestorage.googleapis.com/v0/b/${firebaseConfig.storageBucket}/o/${imageToBeUploaded.resizedImageFileName}?alt=media`);
       promises.push(
         admin
           .storage()
